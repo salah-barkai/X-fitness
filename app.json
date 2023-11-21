@@ -4,12 +4,12 @@
     "slug": "X-fitness",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/X-fitness.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/X-fitness.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/X-fitness.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.sbk_salah.Xfitness"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/X-fitness.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a0d2ab0b-e63a-437b-aa30-167dd2054523"
+      }
     }
   }
 }

@@ -20,7 +20,7 @@ export default function App() {
          style = {styles.bar}
          activeColor="orange"
           inactiveColor="white"
-          barStyle={{ backgroundColor: 'black' }}
+          barStyle={{ backgroundColor: 'black', padding:3, margin:0, marginTop:10 }}
         >
         <Tabs.Screen  name="Exercice"
               component={StackNavigator}
@@ -60,16 +60,11 @@ const styles = StyleSheet.create({
     backgroundColor: 'white'
   },
 
-  bar:{
-    backgroundColor: 'black',
-    borderRadius: 10,
-  },
 
   logo: {
     margin: 10,
     padding: 8,
     borderRadius: 20,
-    borderColor: 'orange',
     backgroundColor: 'black',
   },
   logoText: {
